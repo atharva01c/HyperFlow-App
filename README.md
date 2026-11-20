@@ -48,19 +48,6 @@ HyperFlow is an Android download manager that combines multiple networks (**Wi-F
 
 ---
 
-## Architecture Overview
-
-HyperFlow is engineered with an isolated two-module architecture:
-* **`:engine`** — A pure Kotlin concurrent download scheduler with zero Android dependencies:
-  * Concurrency Controller with hedge racing and work-stealing.
-  * Windowed Speed Meter and Stream Governors.
-* **`:app`** — Modern Android application shell:
-  * Jetpack Compose & Material 3 UI design system.
-  * Low-level socket network binding with Android ConnectivityManager.
-  * Background Foreground Service (`dataSync` type) with media store publication.
-
----
-
 ## 💬 Feedback & Bug Reports
 
 Found an issue or have a feature suggestion? 
@@ -70,4 +57,4 @@ Feel free to open an issue on the **[HyperFlow-App Issue Tracker](https://github
 
 ## 🙏 Acknowledgments
 
-HyperFlow was inspired by the concept of **[Plexo](https://github.com/anmolkapil/plexo)** by [@anmolkapil](https://github.com/anmolkapil). I deeply appreciate their work in exploring multiplexed network downloading.
+HyperFlow was inspired by the concept of **[Plexo](https://github.com/anmolkapil/plexo)** by [@anmolkapil](https://github.com/anmolkapil). I deeply appreciate their work.
