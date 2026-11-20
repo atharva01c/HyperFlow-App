@@ -1,8 +1,8 @@
 # HyperFlow ⚡
 
-> **Multi-Interface High-Speed Download Accelerator for Android**
+> **Multi-Connection Download Manager for Android**
 
-HyperFlow is a next-generation Android download manager that bonds multiple physical network connections (**Wi-Fi, 5G Cellular, and Ethernet**) simultaneously to achieve unprecedented download throughput.
+HyperFlow is a Android download manager that bonds multiple physical network connections (**Wi-Fi, Cellular, and Ethernet**) simultaneously to achieve unprecedented download throughput.
 
 [![Latest Release](https://img.shields.io/github/v/release/atharva01c/HyperFlow-App?style=for-the-badge&color=007AFF&label=Download%20APK)](https://github.com/atharva01c/HyperFlow-App/releases/latest)
 [![Android](https://img.shields.io/badge/Platform-Android%2010%2B%20(API%2029%E2%80%9336)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/atharva01c/HyperFlow-App/releases)
@@ -24,8 +24,8 @@ HyperFlow is a next-generation Android download manager that bonds multiple phys
 
 ## ✨ Key Features
 
-* **⚡ True Multi-Rail Network Multiplexing**
-  * Simultaneously bonds active physical interfaces: **Wi-Fi + 5G / 4G Cellular + USB-C / Ethernet**.
+* **⚡ Multi-Network Aggregation**
+  * Simultaneously bonds active physical interfaces.
   * Bypasses traditional single-connection OS bottlenecks by routing independent TCP/HTTP streams directly through dedicated socket bindings (`Network.bindSocket`).
 
 * **🧩 Dynamic Block Matrix & Work-Stealing**
@@ -36,12 +36,8 @@ HyperFlow is a next-generation Android download manager that bonds multiple phys
   * Seamlessly adapts when you walk out of Wi-Fi range or toggle networks on/off.
   * Active streams instantly shift to surviving links without stalling, failing, or re-downloading existing progress.
 
-* **🍎 Apple-Grade Fluid UI & Craft**
-  * Built with Jetpack Compose, featuring tactile spring physics, direct haptic feedback, specular glass lighting, and seamless Light/Dark mode transitions.
-  * Real-time aggregate telemetry with per-network allocation visualization.
-
 * **🛡️ Resilient & Private**
-  * Robust resume capabilities utilizing HTTP 206 partial range requests.
+  * Resume capabilities utilizing HTTP 206 partial range requests.
   * Automatic clipboard link detection.
   * Files are safely published directly into your public `Downloads/HyperFlow/` folder upon completion.
 
@@ -84,6 +80,6 @@ Feel free to open an issue on the **[HyperFlow-App Issue Tracker](https://github
 
 ---
 
-## 🙏 Acknowledgments & Inspiration
+## 🙏 Acknowledgments
 
-HyperFlow was inspired by the innovative concept of **[Plexo](https://github.com/anmolkapil/plexo)** by [@anmolkapil](https://github.com/anmolkapil). We deeply appreciate their work in exploring multiplexed network downloading on mobile platforms.
+HyperFlow was inspired by the concept of **[Plexo](https://github.com/anmolkapil/plexo)** by [@anmolkapil](https://github.com/anmolkapil). I deeply appreciate their work in exploring multiplexed network downloading.
