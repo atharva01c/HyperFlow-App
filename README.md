@@ -43,15 +43,6 @@ HyperFlow is a Android download manager that bonds multiple physical network con
 
 ---
 
-## 📥 How to Install
-
-1. Navigate to the **[Latest Releases](https://github.com/atharva01c/HyperFlow-App/releases)** page.
-2. Under **Assets**, tap and download `HyperFlow-v0.1.0-debug.apk` (or latest release build).
-3. Open the downloaded file on your Android device and allow *"Install from unknown sources"* if prompted.
-4. Launch **HyperFlow** and experience combined multi-network downloading!
-
----
-
 ## ⚙️ Requirements
 
 * **Android OS:** Android 10 (API Level 29) or newer.
