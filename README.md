@@ -8,7 +8,7 @@ HyperFlow is an Android download manager that bonds multiple physical network co
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="assets/screenshots/home.png" width="30%" alt="HyperFlow Home Screen" />
@@ -20,28 +20,28 @@ HyperFlow is an Android download manager that bonds multiple physical network co
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-* **⚡ Multi-Network Aggregation**
+* ** Multi-Network Aggregation**
   * Simultaneously bonds active physical interfaces.
   * Bypasses traditional single-connection OS bottlenecks by routing independent TCP/HTTP streams directly through dedicated socket bindings (`Network.bindSocket`).
 
-* **🧩 Dynamic Block Matrix & Work-Stealing**
+* ** Dynamic Block Matrix & Work-Stealing**
   * Automatically splits target files into 4 MiB block ranges.
   * Faster radios continuously steal pending work from slower ones, ensuring 100% capacity utilization across all available links.
 
-* **🔄 Zero-Loss Live Network Handover**
+* ** Zero-Loss Live Network Handover**
   * Seamlessly adapts when you walk out of Wi-Fi range or toggle networks on/off.
   * Active streams instantly shift to surviving links without stalling, failing, or re-downloading existing progress.
 
-* **🛡️ Resilient & Private**
+* ** Resilient & Private**
   * Resume capabilities utilizing HTTP 206 partial range requests.
   * Automatic clipboard link detection.
   * Files are safely published directly into your public `Downloads/HyperFlow/` folder upon completion.
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * **Android OS:** Android 10 (API Level 29) or newer.
 * **Architecture:** Compatible with `arm64-v8a`, `armeabi-v7a`, `x86_64`.
@@ -49,7 +49,7 @@ HyperFlow is an Android download manager that bonds multiple physical network co
 
 ---
 
-## 🛠️ Architecture Overview
+## Architecture Overview
 
 HyperFlow is engineered with an isolated two-module architecture:
 * **`:engine`** — A pure Kotlin concurrent download scheduler with zero Android dependencies:
