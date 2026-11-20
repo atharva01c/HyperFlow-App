@@ -1,8 +1,6 @@
-# HyperFlow ⚡
+# HyperFlow
 
-> **Multi-Connection Download Manager for Android**
-
-HyperFlow is a Android download manager that bonds multiple physical network connections (**Wi-Fi, Cellular, and Ethernet**) simultaneously to achieve unprecedented download throughput.
+HyperFlow is an Android download manager that bonds multiple physical network connections (**Wi-Fi, Cellular, and Ethernet**) simultaneously to achieve higher download speed.
 
 [![Latest Release](https://img.shields.io/github/v/release/atharva01c/HyperFlow-App?style=for-the-badge&color=007AFF&label=Download%20APK)](https://github.com/atharva01c/HyperFlow-App/releases/latest)
 [![Android](https://img.shields.io/badge/Platform-Android%2010%2B%20(API%2029%E2%80%9336)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/atharva01c/HyperFlow-App/releases)
