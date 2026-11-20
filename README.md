@@ -1,4 +1,4 @@
-# HyperFlow - Download Manager
+# HyperFlow - Android Download Manager
 
 HyperFlow is an Android download manager that combines multiple networks (**Wi-Fi, Cellular, and Ethernet**) simultaneously to achieve higher download speed.
 
