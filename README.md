@@ -81,3 +81,9 @@ HyperFlow is engineered with an isolated two-module architecture:
 
 Found an issue or have a feature suggestion? 
 Feel free to open an issue on the **[HyperFlow-App Issue Tracker](https://github.com/atharva01c/HyperFlow-App/issues)**!
+
+---
+
+## 🙏 Acknowledgments & Inspiration
+
+HyperFlow was inspired by the innovative concept of **[Plexo](https://github.com/anmolkapil/plexo)** by [@anmolkapil](https://github.com/anmolkapil). We deeply appreciate their work in exploring multiplexed network downloading on mobile platforms.
