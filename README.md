@@ -14,7 +14,7 @@ HyperFlow is an Android download manager that combines multiple networks (**Wi-F
   &nbsp;&nbsp;
   <img src="assets/screenshots/shot_detail.png" width="33%" alt="Block Matrix & Detail" />
   &nbsp;&nbsp;
-  <img src="assets/screenshots/shot_settings.png" width="31%" alt="HyperFlow Settings" />
+  <img src="assets/screenshots/shot_networks.png" width="31%" alt="HyperFlow Networks" />
 </p>
 
 ---
