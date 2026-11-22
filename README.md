@@ -22,7 +22,7 @@ HyperFlow is an Android download manager that combines multiple networks (**Wi-F
 ## Key Features
 
 * Multi-Network Aggregation
-  * Simultaneously bonds active physical interfaces.
+  * Simultaneously bonds active physical interfaces(Wifi + Mobile Data) for boosting download speeds.
   * Bypasses traditional single-connection OS bottlenecks by routing independent TCP/HTTP streams directly through dedicated socket bindings (`Network.bindSocket`).
 
 * Dynamic Block Matrix & Work-Stealing
